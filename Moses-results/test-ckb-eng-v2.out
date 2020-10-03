@@ -1,0 +1,1076 @@
+Defined parameters (per moses.ini or switch):
+	config: mert-work/moses.ini 
+	distortion-limit: 6 
+	feature: UnknownWordPenalty WordPenalty PhrasePenalty PhraseDictionaryMemory name=TranslationModel0 num-features=4 path=/home/hossein/working3/train/model/phrase-table.gz input-factor=0 output-factor=0 LexicalReordering name=LexicalReordering0 num-features=6 type=wbe-msd-bidirectional-fe-allff input-factor=0 output-factor=0 path=/home/hossein/working3/train/model/reordering-table.wbe-msd-bidirectional-fe.gz Distortion KENLM name=LM0 factor=0 path=/home/hossein/lm3/ckb-eng-v2.ckb-en.blm.en order=3 
+	input-factors: 0 
+	mapping: 0 T 0 
+	weight: LexicalReordering0= 0.0916495 0.0543994 0.0985387 0.0115559 0.0586764 0.0170622 Distortion0= 0.0105389 LM0= 0.132846 WordPenalty0= -0.213212 PhrasePenalty0= 0.0407005 TranslationModel0= 0.0389066 -1.12737e-05 0.213981 -0.017922 UnknownWordPenalty0= 1 
+line=UnknownWordPenalty
+FeatureFunction: UnknownWordPenalty0 start: 0 end: 0
+line=WordPenalty
+FeatureFunction: WordPenalty0 start: 1 end: 1
+line=PhrasePenalty
+FeatureFunction: PhrasePenalty0 start: 2 end: 2
+line=PhraseDictionaryMemory name=TranslationModel0 num-features=4 path=/home/hossein/working3/train/model/phrase-table.gz input-factor=0 output-factor=0
+FeatureFunction: TranslationModel0 start: 3 end: 6
+line=LexicalReordering name=LexicalReordering0 num-features=6 type=wbe-msd-bidirectional-fe-allff input-factor=0 output-factor=0 path=/home/hossein/working3/train/model/reordering-table.wbe-msd-bidirectional-fe.gz
+Initializing Lexical Reordering Feature..
+FeatureFunction: LexicalReordering0 start: 7 end: 12
+line=Distortion
+FeatureFunction: Distortion0 start: 13 end: 13
+line=KENLM name=LM0 factor=0 path=/home/hossein/lm3/ckb-eng-v2.ckb-en.blm.en order=3
+FeatureFunction: LM0 start: 14 end: 14
+Loading UnknownWordPenalty0
+Loading WordPenalty0
+Loading PhrasePenalty0
+Loading LexicalReordering0
+Loading table into memory...done.
+Loading Distortion0
+Loading LM0
+Loading TranslationModel0
+Start loading text phrase table. Moses format : [0.171] seconds
+Reading /home/hossein/working3/train/model/phrase-table.gz
+----5---10---15---20---25---30---35---40---45---50---55---60---65---70---75---80---85---90---95--100
+****************************************************************************************************
+Created input-output object : [0.345] seconds
+Translating: لەشاری کاراسنۆدار-ی فیدراسیۆنی ڕووسیا کۆرسی زمانی کوردی بۆمندالان کرایەوە . 
+Line 0: Initialize search took 0.000 seconds total
+Line 0: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 0: Search took 0.003 seconds
+BEST TRANSLATION: لەشاری|UNK|UNK|UNK کاراسنۆدار-ی|UNK|UNK|UNK فیدراسیۆنی|UNK|UNK|UNK language course opened in Russia کرایەوە|UNK|UNK|UNK بۆمندالان|UNK|UNK|UNK . [1111111111]  [total=-506.806] core=(-500.000,-11.000,8.000,-0.964,-4.527,-2.745,-8.101,0.000,-1.609,-2.072,0.000,-1.609,-1.609,-12.000,-63.660)  
+Line 0: Decision rule took 0.000 seconds total
+Line 0: Additional reporting took 0.000 seconds total
+Line 0: Translation took 0.003 seconds total
+Translating: 
+Line 1: Initialize search took 0.000 seconds total
+Line 1: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 1: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 1: Decision rule took 0.000 seconds total
+Line 1: Additional reporting took 0.000 seconds total
+Line 1: Translation took 0.000 seconds total
+Translating: لەو چالاکییەدا ئەبو خالیدی سەرەک چەتە و 2 چەتەی تر کوژران و چەتەیەکی تریش بریندار بوو و ئۆتۆمبێلەکەشیان تێکشکێنرا . 
+Line 2: Initialize search took 0.000 seconds total
+Line 2: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 2: Search took 0.065 seconds
+BEST TRANSLATION: چالاکییەدا|UNK|UNK|UNK ئەبو|UNK|UNK|UNK in our خالیدی|UNK|UNK|UNK سەرەک|UNK|UNK|UNK jihadists were killed and another three wounded and a second action was تریش|UNK|UNK|UNK چەتەیەکی|UNK|UNK|UNK were killed and ئۆتۆمبێلەکەشیان|UNK|UNK|UNK تێکشکێنرا|UNK|UNK|UNK . [11111111111111111111]  [total=-814.456] core=(-800.000,-26.000,19.000,-19.185,-23.364,-12.006,-43.790,-1.592,0.000,-5.814,-0.369,0.000,-6.640,-40.000,-127.854)  
+Line 2: Decision rule took 0.000 seconds total
+Line 2: Additional reporting took 0.000 seconds total
+Line 2: Translation took 0.065 seconds total
+Translating: 
+Line 3: Initialize search took 0.000 seconds total
+Line 3: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 3: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 3: Decision rule took 0.000 seconds total
+Line 3: Additional reporting took 0.000 seconds total
+Line 3: Translation took 0.000 seconds total
+Translating: ئەو زیندانییە پێنج ساڵ پێش ، لە کاتی شەڕ و دەمەقاڵێدا ، هاووڵاتییەکی قوروەیی بە ناوی &quot; عیماد خالدیان &quot; کوشت . 
+Line 4: Initialize search took 0.000 seconds total
+Line 4: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 4: Search took 0.133 seconds
+BEST TRANSLATION: the prisoner five years ago , قوروەیی|UNK|UNK|UNK killed a citizen named &quot; کوشت|UNK|UNK|UNK عیماد|UNK|UNK|UNK خالدیان|UNK|UNK|UNK . [1111111111111111111111]  [total=-408.705] core=(-400.000,-16.000,14.000,-20.306,-33.477,-5.045,-8.463,-1.416,-1.609,-3.529,-4.337,-1.609,-3.855,-26.000,-74.669)  
+Line 4: Decision rule took 0.000 seconds total
+Line 4: Additional reporting took 0.000 seconds total
+Line 4: Translation took 0.134 seconds total
+Translating: 
+Line 5: Initialize search took 0.000 seconds total
+Line 5: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 5: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 5: Decision rule took 0.000 seconds total
+Line 5: Additional reporting took 0.000 seconds total
+Line 5: Translation took 0.000 seconds total
+Translating: هەتا ئێستا بەدواداچوونی بنەماڵەی ئەو دوو هاووڵاتییە کوردە بۆ ئاگاداربوون لە چارەنووسیان بێئاکام ماوەتەوە و لە هۆکاری دەسبەسەرکردنیان هیچ زانیارییەک وەدەست نەکەوتووە . 
+Line 6: Initialize search took 0.000 seconds total
+Line 6: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 6: Search took 0.124 seconds
+BEST TRANSLATION: so far , the two Kurdish citizens &apos;s family &apos;s family &apos;s pursuit about his fate has been unsuccessful چارەنووسیان|UNK|UNK|UNK and دەسبەسەرکردنیان|UNK|UNK|UNK نەکەوتووە|UNK|UNK|UNK of this news , no وەدەست|UNK|UNK|UNK . [11111111111111111111111]  [total=-407.943] core=(-400.000,-30.000,12.000,-9.744,-31.778,-8.056,-60.239,-0.336,-0.511,-5.214,-1.022,-3.219,-3.555,-24.000,-95.740)  
+Line 6: Decision rule took 0.000 seconds total
+Line 6: Additional reporting took 0.000 seconds total
+Line 6: Translation took 0.125 seconds total
+Translating: 
+Line 7: Initialize search took 0.000 seconds total
+Line 7: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 7: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 7: Decision rule took 0.000 seconds total
+Line 7: Additional reporting took 0.000 seconds total
+Line 7: Translation took 0.000 seconds total
+Translating: سەربازە داگیرکەرەکانی تورک کێلی گۆڕی گەریلاکانیان شکاند 
+Line 8: Initialize search took 0.000 seconds total
+Line 8: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 8: Search took 0.002 seconds
+BEST TRANSLATION: Turkish سەربازە|UNK|UNK|UNK داگیرکەرەکانی|UNK|UNK|UNK کێلی|UNK|UNK|UNK گۆڕی|UNK|UNK|UNK گەریلاکانیان|UNK|UNK|UNK شکاند|UNK|UNK|UNK [1111111]  [total=-606.992] core=(-600.000,-7.000,7.000,-2.398,-2.351,-0.916,-1.833,0.000,0.000,-0.336,0.000,0.000,-0.847,-6.000,-63.244)  
+Line 8: Decision rule took 0.000 seconds total
+Line 8: Additional reporting took 0.000 seconds total
+Line 8: Translation took 0.003 seconds total
+Translating: 
+Line 9: Initialize search took 0.000 seconds total
+Line 9: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 9: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 9: Decision rule took 0.000 seconds total
+Line 9: Additional reporting took 0.000 seconds total
+Line 9: Translation took 0.000 seconds total
+Translating: ئەو لاوە کوردە ، ڕۆژی هەینی 14ی بەفرانبار ، پاش ئازار و ئەشکەنجەدانی لەلایەن هێزە ئیتلاعاتییەکانەوە ، بەبێ بەڵگەی یاسایی دەسبەسەر کرابوو . 
+Line 10: Initialize search took 0.000 seconds total
+Line 10: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 10: Search took 0.123 seconds
+BEST TRANSLATION: this young Kurd was on Friday on March 16 , and after ئەشکەنجەدانی|UNK|UNK|UNK بەفرانبار|UNK|UNK|UNK by intelligence forces was arrested without any legal permission . [11111111111111111111111]  [total=-208.054] core=(-200.000,-24.000,15.000,-13.531,-25.831,-6.545,-26.047,-1.994,0.000,-5.897,-4.779,0.000,-6.576,-36.000,-82.888)  
+Line 10: Decision rule took 0.000 seconds total
+Line 10: Additional reporting took 0.000 seconds total
+Line 10: Translation took 0.124 seconds total
+Translating: 
+Line 11: Initialize search took 0.000 seconds total
+Line 11: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 11: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 11: Decision rule took 0.000 seconds total
+Line 11: Additional reporting took 0.000 seconds total
+Line 11: Translation took 0.000 seconds total
+Translating: ڕۆژی سێشەممە 27ی ڕەشەمەی 98 ، هاووڵاتییەکی بە ناوی &quot; محەممەد عوبیدی &quot; خەڵکی شاری مەریوان لەلایەن هێزە ئیتلاعاتییەکانەوە دەسبەسەر کرا . 
+Line 12: Initialize search took 0.000 seconds total
+Line 12: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 12: Search took 0.156 seconds
+BEST TRANSLATION: on Tuesday , March 17th , 2020 , a citizen named &quot; Mohammed Obeidi &quot; from Marivan was arrested by intelligence forces . [1111111111111111111111]  [total=-1.610] core=(0.000,-23.000,7.000,-5.547,-21.790,-1.646,-19.338,-7.417,0.000,0.000,-7.603,0.000,0.000,0.000,-43.732)  
+Line 12: Decision rule took 0.000 seconds total
+Line 12: Additional reporting took 0.000 seconds total
+Line 12: Translation took 0.157 seconds total
+Translating: 
+Line 13: Initialize search took 0.000 seconds total
+Line 13: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 13: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 13: Decision rule took 0.000 seconds total
+Line 13: Additional reporting took 0.000 seconds total
+Line 13: Translation took 0.000 seconds total
+Translating: ئاژانسی کوردپا : لقی 2ی دادگای کەیفەریی شاری شنۆ ، هاووڵاتییەکی بە ساڵێک زیندانی تەعزیری مەحکووم کرد . 
+Line 14: Initialize search took 0.000 seconds total
+Line 14: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 14: Search took 0.090 seconds
+BEST TRANSLATION: Kurdpa Agency : the Second Branch of the Oshnavieh Criminal Court , a Kurdish citizen sentenced to one year in discretionary imprisonment citizen . [111111111111111111]  [total=-4.839] core=(0.000,-24.000,11.000,-11.320,-22.545,-9.353,-42.174,-1.695,-0.053,-3.208,-1.443,-0.511,-2.144,-28.000,-59.203)  
+Line 14: Decision rule took 0.000 seconds total
+Line 14: Additional reporting took 0.000 seconds total
+Line 14: Translation took 0.091 seconds total
+Translating: 
+Line 15: Initialize search took 0.000 seconds total
+Line 15: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 15: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 15: Decision rule took 0.000 seconds total
+Line 15: Additional reporting took 0.000 seconds total
+Line 15: Translation took 0.000 seconds total
+Translating: لە گفتوگۆکانی کاتی پێشوازیەکەدا دەردەکەوێت کە ئەو ڕۆژنامەوانە پێشتر لە کۆبانێ بووە و چەند شەڕڤانێکی ژنی ناسیوە . 
+Line 16: Initialize search took 0.000 seconds total
+Line 16: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 16: Search took 0.062 seconds
+BEST TRANSLATION: گفتوگۆکانی|UNK|UNK|UNK پێشوازیەکەدا|UNK|UNK|UNK دەردەکەوێت|UNK|UNK|UNK in the was shot in the ڕۆژنامەوانە|UNK|UNK|UNK پێشتر|UNK|UNK|UNK in and شەڕڤانێکی|UNK|UNK|UNK ناسیوە|UNK|UNK|UNK ژنی|UNK|UNK|UNK . [111111111111111111]  [total=-812.700] core=(-800.000,-17.000,16.000,-22.803,-25.479,-7.511,-9.333,-0.511,0.000,-2.940,-3.730,0.000,-4.230,-32.000,-104.328)  
+Line 16: Decision rule took 0.000 seconds total
+Line 16: Additional reporting took 0.000 seconds total
+Line 16: Translation took 0.062 seconds total
+Translating: 
+Line 17: Initialize search took 0.000 seconds total
+Line 17: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 17: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 17: Decision rule took 0.000 seconds total
+Line 17: Additional reporting took 0.000 seconds total
+Line 17: Translation took 0.000 seconds total
+Translating: لە عەین عیسا مینێک تەقیەوە و منداڵیک گیانی لەدەستدا 
+Line 18: Initialize search took 0.000 seconds total
+Line 18: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 18: Search took 0.016 seconds
+BEST TRANSLATION: in عەین|UNK|UNK|UNK عیسا|UNK|UNK|UNK مینێک|UNK|UNK|UNK تەقیەوە|UNK|UNK|UNK killed and منداڵیک|UNK|UNK|UNK [111111111]  [total=-507.103] core=(-500.000,-8.000,8.000,-3.500,-9.832,-1.583,-2.761,-1.659,0.000,-1.105,-1.201,0.000,-0.511,-6.000,-62.943)  
+Line 18: Decision rule took 0.000 seconds total
+Line 18: Additional reporting took 0.000 seconds total
+Line 18: Translation took 0.016 seconds total
+Translating: 
+Line 19: Initialize search took 0.000 seconds total
+Line 19: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 19: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 19: Decision rule took 0.000 seconds total
+Line 19: Additional reporting took 0.000 seconds total
+Line 19: Translation took 0.000 seconds total
+Translating: زیندانییەک بە تاوانی &quot; کوشتی بەئەنقەست &quot; لە زیندانی سنە ئێعدام کرا 
+Line 20: Initialize search took 0.000 seconds total
+Line 20: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 20: Search took 0.062 seconds
+BEST TRANSLATION: a prisoner accused of &quot; بەئەنقەست|UNK|UNK|UNK کوشتی|UNK|UNK|UNK in Sanandaj prison [111111111111]  [total=-203.748] core=(-200.000,-10.000,5.000,-7.993,-23.609,-0.916,-11.336,-1.022,0.000,-0.452,-1.299,0.000,-1.609,-4.000,-41.832)  
+Line 20: Decision rule took 0.000 seconds total
+Line 20: Additional reporting took 0.000 seconds total
+Line 20: Translation took 0.063 seconds total
+Translating: 
+Line 21: Initialize search took 0.000 seconds total
+Line 21: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 21: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 21: Decision rule took 0.000 seconds total
+Line 21: Additional reporting took 0.000 seconds total
+Line 21: Translation took 0.000 seconds total
+Translating: بۆیە گومان لەوەدا نییە کە سەپاندنی سیستەمی خوێندن و فێرکاری فەرمی تەنیا بە یەک زمان ، هێمایەکی ڕوونی زمان کوژییە کە دەبێتە هۆی لاواز بوونی پێگەی کۆمەڵایەتی زمانەکانی دیکەی ئێران و ئاڵۆز کردنی جەوهەر و ناوەرۆک و هەروەها دەوری گواستنەوەیان لە نەوەیەک بۆ نەوەکانی داهاتوو . 
+Line 22: Initialize search took 0.001 seconds total
+Line 22: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 22: Search took 0.162 seconds
+BEST TRANSLATION: the لەوەدا|UNK|UNK|UNK بۆیە|UNK|UNK|UNK گومان|UNK|UNK|UNK what decisions reading and learning into a single language is an obvious act a killing languages that undermines the social status of other داهاتوو|UNK|UNK|UNK نەوەکانی|UNK|UNK|UNK to . [1111111111111111111111111111111111111111111111]  [total=-512.191] core=(-500.000,-31.000,20.000,-33.866,-138.027,-7.979,-35.981,-6.438,-2.631,-3.386,-5.339,-2.457,-5.021,-32.000,-116.983)  
+Line 22: Decision rule took 0.000 seconds total
+Line 22: Additional reporting took 0.000 seconds total
+Line 22: Translation took 0.164 seconds total
+Translating: 
+Line 23: Initialize search took 0.000 seconds total
+Line 23: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 23: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 23: Decision rule took 0.000 seconds total
+Line 23: Additional reporting took 0.000 seconds total
+Line 23: Translation took 0.000 seconds total
+Translating: فڕۆکە بێفڕۆکەوانەکانی دەوڵەتی داگیرکەری تورک کەمپی مەخموریان بوردومان کرد – نوێ کرایەوە - 
+Line 24: Initialize search took 0.000 seconds total
+Line 24: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 24: Search took 0.024 seconds
+BEST TRANSLATION: Turkish state Turkish بێفڕۆکەوانەکانی|UNK|UNK|UNK کەمپی|UNK|UNK|UNK مەخموریان|UNK|UNK|UNK بوردومان|UNK|UNK|UNK Rocyar کرایەوە|UNK|UNK|UNK a 120-bed ) [1111111111111]  [total=-510.329] core=(-500.000,-12.000,11.000,-12.943,-17.784,-3.925,-11.251,0.000,0.000,-4.241,-0.511,0.000,-3.219,-18.000,-86.757)  
+Line 24: Decision rule took 0.000 seconds total
+Line 24: Additional reporting took 0.000 seconds total
+Line 24: Translation took 0.025 seconds total
+Translating: 
+Line 25: Initialize search took 0.000 seconds total
+Line 25: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 25: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 25: Decision rule took 0.000 seconds total
+Line 25: Additional reporting took 0.000 seconds total
+Line 25: Translation took 0.000 seconds total
+Translating: پێوستی بە هاوکاری گەل هەیە . 
+Line 26: Initialize search took 0.000 seconds total
+Line 26: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 26: Search took 0.019 seconds
+BEST TRANSLATION: liberal پێوستی|UNK|UNK|UNK , was transferred to an unknown location . [111111]  [total=-104.422] core=(-100.000,-10.000,6.000,-11.139,-15.733,-9.524,-35.158,-1.609,0.000,-2.783,-2.398,0.000,-1.532,-16.000,-32.465)  
+Line 26: Decision rule took 0.000 seconds total
+Line 26: Additional reporting took 0.000 seconds total
+Line 26: Translation took 0.020 seconds total
+Translating: 
+Line 27: Initialize search took 0.000 seconds total
+Line 27: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 27: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 27: Decision rule took 0.000 seconds total
+Line 27: Additional reporting took 0.000 seconds total
+Line 27: Translation took 0.000 seconds total
+Translating: لەلایەکی دیکەوە ، ڕێکخراوی مافی مرۆڤی ئێران ڕایگەیاندووە کە سەر لەبەیانی ئەمڕۆ حوکمی لە سێدارەدانی زیندانییەک بە ناوی &quot; یاسر ڕەسووڵی &quot; خەڵکی شاری بۆکان لە زیندانی ناوەندیی ورمێ جێبەجێ کرا . 
+Line 28: Initialize search took 0.000 seconds total
+Line 28: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 28: Search took 0.155 seconds
+BEST TRANSLATION: this دیکەوە|UNK|UNK|UNK Saqez Iran , a stage for concerts ڕایگەیاندووە|UNK|UNK|UNK in the this morning , a prisoner accused of &quot; یاسر|UNK|UNK|UNK سێدارەدانی|UNK|UNK|UNK ڕەسووڵی|UNK|UNK|UNK , from بۆکان|UNK|UNK|UNK , was carried out in Urmia Central Prison . [11111111111111111111111111111111]  [total=-614.830] core=(-600.000,-35.000,22.000,-31.026,-52.764,-13.646,-45.958,-1.886,-0.167,-5.271,-3.973,-0.623,-6.142,-62.000,-138.079)  
+Line 28: Decision rule took 0.000 seconds total
+Line 28: Additional reporting took 0.000 seconds total
+Line 28: Translation took 0.156 seconds total
+Translating: 
+Line 29: Initialize search took 0.000 seconds total
+Line 29: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 29: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 29: Decision rule took 0.000 seconds total
+Line 29: Additional reporting took 0.000 seconds total
+Line 29: Translation took 0.000 seconds total
+Translating: هێزەکانی ڕزگاری عەفرین- HREرایگەیاند ، هیزەکانیان لە ناوچەی شێرەوا و باب هێزێکی کوشتندەیان لە چەتەی داگیرکەران داوە و بە پێی زانیاریەکانیان چەتەیەک کوژراوە و 5 چەتەی دیکەش بریندار بوون . 
+Line 30: Initialize search took 0.000 seconds total
+Line 30: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 30: Search took 0.136 seconds
+BEST TRANSLATION: a vehicle was destroyed as guerillas hit a covert military هیزەکانیان|UNK|UNK|UNK شێرەوا|UNK|UNK|UNK , &quot; Payam Rostami &quot; and باب|UNK|UNK|UNK کوشتندەیان|UNK|UNK|UNK هێزێکی|UNK|UNK|UNK in groups and reports that the according to the jihadists چەتەیەک|UNK|UNK|UNK زانیاریەکانیان|UNK|UNK|UNK been and 5 others wounded . [111111111111111111111111111111]  [total=-716.323] core=(-700.000,-39.000,20.000,-14.507,-44.983,-11.432,-86.387,-2.043,0.000,-4.503,-3.511,0.000,-3.772,-38.000,-172.038)  
+Line 30: Decision rule took 0.000 seconds total
+Line 30: Additional reporting took 0.000 seconds total
+Line 30: Translation took 0.137 seconds total
+Translating: 
+Line 31: Initialize search took 0.000 seconds total
+Line 31: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 31: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 31: Decision rule took 0.000 seconds total
+Line 31: Additional reporting took 0.000 seconds total
+Line 31: Translation took 0.000 seconds total
+Translating: بەڵکوو بێبەشکردنی مرۆڤەکان لە فێرکاری و خوێندن بە زمانی دایکیی و ئەو هەست بە بەشخوراوییەیە کە ئەوان تووشی داڕمان و وێرانکاریی و دابڕان دەکات . 
+Line 32: Initialize search took 0.000 seconds total
+Line 32: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 32: Search took 0.126 seconds
+BEST TRANSLATION: بەڵکوو|UNK|UNK|UNK مرۆڤەکان|UNK|UNK|UNK بێبەشکردنی|UNK|UNK|UNK in which reading and learning into a language and the هەست|UNK|UNK|UNK بەشخوراوییەیە|UNK|UNK|UNK they carried out a sabotage operation and the داڕمان|UNK|UNK|UNK and دابڕان|UNK|UNK|UNK وێرانکاریی|UNK|UNK|UNK . [1111111111111111111111111]  [total=-815.254] core=(-800.000,-28.000,21.000,-20.974,-30.662,-15.393,-50.885,-4.403,-4.940,-3.140,-5.445,-5.639,-4.581,-32.000,-128.651)  
+Line 32: Decision rule took 0.000 seconds total
+Line 32: Additional reporting took 0.000 seconds total
+Line 32: Translation took 0.127 seconds total
+Translating: 
+Line 33: Initialize search took 0.000 seconds total
+Line 33: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 33: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 33: Decision rule took 0.000 seconds total
+Line 33: Additional reporting took 0.000 seconds total
+Line 33: Translation took 0.000 seconds total
+Translating: داگیرکەران گوندەکانی عەین عیسا تۆپباران دەکەن 
+Line 34: Initialize search took 0.000 seconds total
+Line 34: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 34: Search took 0.002 seconds
+BEST TRANSLATION: village in دەکەن|UNK|UNK|UNK villages of عەین|UNK|UNK|UNK عیسا|UNK|UNK|UNK [111111]  [total=-306.204] core=(-300.000,-7.000,6.000,-5.930,-10.228,-3.045,-4.512,-1.609,0.000,-1.946,-5.165,0.000,0.000,-10.000,-49.948)  
+Line 34: Decision rule took 0.000 seconds total
+Line 34: Additional reporting took 0.000 seconds total
+Line 34: Translation took 0.002 seconds total
+Translating: 
+Line 35: Initialize search took 0.000 seconds total
+Line 35: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 35: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 35: Decision rule took 0.000 seconds total
+Line 35: Additional reporting took 0.000 seconds total
+Line 35: Translation took 0.000 seconds total
+Translating: داگیرکەران هێرشیان کردە سەر گوندی خربەتبەقری گرێ سپی 
+Line 36: Initialize search took 0.000 seconds total
+Line 36: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 36: Search took 0.022 seconds
+BEST TRANSLATION: increased security measures against the vehicle of jihadist leader Abu خربەتبەقری|UNK|UNK|UNK کردە|UNK|UNK|UNK bombing villages of the village of Girê Spî last night [11111111]  [total=-206.895] core=(-200.000,-22.000,7.000,-3.466,-6.992,-12.981,-86.180,0.000,0.000,-2.805,0.000,0.000,-4.241,-14.000,-75.323)  
+Line 36: Decision rule took 0.000 seconds total
+Line 36: Additional reporting took 0.000 seconds total
+Line 36: Translation took 0.022 seconds total
+Translating: 
+Line 37: Initialize search took 0.000 seconds total
+Line 37: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 37: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 37: Decision rule took 0.000 seconds total
+Line 37: Additional reporting took 0.000 seconds total
+Line 37: Translation took 0.000 seconds total
+Translating: ئاگرتێبەردانی ناوەندی فەرهەنگی _ هونەری ڤەژین لە شاری مەریوان بە ئەنقەست بوو 
+Line 38: Initialize search took 0.000 seconds total
+Line 38: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 38: Search took 0.032 seconds
+BEST TRANSLATION: ئاگرتێبەردانی|UNK|UNK|UNK supports Art and Cultural Center in the Marivan &quot; [111111111111]  [total=-106.802] core=(-100.000,-10.000,9.000,-20.095,-21.153,-4.036,-7.275,-1.022,-0.511,-3.008,-2.846,-0.847,-4.403,-19.000,-52.768)  
+Line 38: Decision rule took 0.000 seconds total
+Line 38: Additional reporting took 0.000 seconds total
+Line 38: Translation took 0.032 seconds total
+Translating: 
+Line 39: Initialize search took 0.000 seconds total
+Line 39: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 39: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 39: Decision rule took 0.000 seconds total
+Line 39: Additional reporting took 0.000 seconds total
+Line 39: Translation took 0.000 seconds total
+Translating: قەرارگای حەمزە لەو ڕاگەیەندراوەدا ئیدعای کردووە کە لەو شەڕەدا ، دوو کەس لەو گرووپە چەکدارە کوژراون و چوار کەسی دیکەیان بریندار بوون . 
+Line 40: Initialize search took 0.000 seconds total
+Line 40: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 40: Search took 0.084 seconds
+BEST TRANSLATION: the IRGC &apos;s حەمزە|UNK|UNK|UNK ڕاگەیەندراوەدا|UNK|UNK|UNK ئیدعای|UNK|UNK|UNK in the , two people in شەڕەدا|UNK|UNK|UNK has charged this چەکدارە|UNK|UNK|UNK in four by دیکەیان|UNK|UNK|UNK were killed and wounded . [11111111111111111111111]  [total=-615.075] core=(-600.000,-26.000,19.000,-33.922,-35.375,-10.904,-30.824,-0.847,0.000,-7.922,-8.199,0.000,-2.318,-44.000,-126.724)  
+Line 40: Decision rule took 0.000 seconds total
+Line 40: Additional reporting took 0.000 seconds total
+Line 40: Translation took 0.085 seconds total
+Translating: 
+Line 41: Initialize search took 0.000 seconds total
+Line 41: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 41: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 41: Decision rule took 0.000 seconds total
+Line 41: Additional reporting took 0.000 seconds total
+Line 41: Translation took 0.000 seconds total
+Translating: ئێمەش بەپەلە گەرەکمانە دەست بەم کارەبکەین وخەباتی خۆمان بەرفراوانتربکەین . 
+Line 42: Initialize search took 0.000 seconds total
+Line 42: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 42: Search took 0.006 seconds
+BEST TRANSLATION: ئێمەش|UNK|UNK|UNK بەپەلە|UNK|UNK|UNK گەرەکمانە|UNK|UNK|UNK دەست|UNK|UNK|UNK کارەبکەین|UNK|UNK|UNK بەرفراوانتربکەین|UNK|UNK|UNK planned by the وخەباتی|UNK|UNK|UNK . [1111111111]  [total=-708.445] core=(-700.000,-11.000,10.000,-6.753,-5.241,-1.241,-5.384,0.000,-0.511,-0.714,0.000,0.000,-1.609,-12.000,-79.139)  
+Line 42: Decision rule took 0.000 seconds total
+Line 42: Additional reporting took 0.000 seconds total
+Line 42: Translation took 0.006 seconds total
+Translating: 
+Line 43: Initialize search took 0.000 seconds total
+Line 43: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 43: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 43: Decision rule took 0.000 seconds total
+Line 43: Additional reporting took 0.000 seconds total
+Line 43: Translation took 0.000 seconds total
+Translating: ئەو زیندانییە ماوەی سێ ساڵ پێش بە تۆمەتی &quot; کوشتنی بەئەنقەست &quot; لە بانە دەسبەسەر کرا و دواتر بە قیساس مەحکووم کرابوو . 
+Line 44: Initialize search took 0.000 seconds total
+Line 44: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 44: Search took 0.135 seconds
+BEST TRANSLATION: the prisoner in three years ago on charges of &quot; murder &quot; and was transferred to Baneh was arrested was sentenced to death was later sentenced to قیساس|UNK|UNK|UNK . [11111111111111111111111]  [total=-106.657] core=(-100.000,-29.000,13.000,-13.419,-28.335,-11.591,-51.727,-6.497,-1.609,-2.190,-6.421,-1.335,-3.482,-20.000,-75.072)  
+Line 44: Decision rule took 0.000 seconds total
+Line 44: Additional reporting took 0.000 seconds total
+Line 44: Translation took 0.136 seconds total
+Translating: 
+Line 45: Initialize search took 0.000 seconds total
+Line 45: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 45: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 45: Decision rule took 0.000 seconds total
+Line 45: Additional reporting took 0.000 seconds total
+Line 45: Translation took 0.000 seconds total
+Translating: دکتور جوان مستەفا هاوسەرۆکی کۆمیتەی تەندروستی باکوور و ڕۆژهەڵاتی سوریا ڕایگەیاند ، بەگۆمانی بڵاوبوونەوەی ڤایرۆسی کۆرۆنا کە لەسەر سەربازێکی هێزەکانی سوریا ئاشکرا بووە ، گوندی ئوم ئەلهۆشی شەهبایان خستووەتە کەرەنتینەوە . 
+Line 46: Initialize search took 0.000 seconds total
+Line 46: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 46: Search took 0.116 seconds
+BEST TRANSLATION: nor doctors جوان|UNK|UNK|UNK Mustafa , کۆمیتەی|UNK|UNK|UNK in northeast Syria to the northern and eastern Syria regions , under quarantine that the سەربازێکی|UNK|UNK|UNK until the moment of publication of this ) at around 1 am on the names of , which was announced in the village of Um ئەلهۆشی|UNK|UNK|UNK , شەهبایان|UNK|UNK|UNK کەرەنتینەوە|UNK|UNK|UNK خستووەتە|UNK|UNK|UNK . [1111111111111111111111111111111]  [total=-720.250] core=(-700.000,-53.000,26.000,-33.412,-61.658,-16.945,-125.622,-3.921,-0.511,-8.144,-4.385,-0.511,-6.247,-52.000,-210.840)  
+Line 46: Decision rule took 0.000 seconds total
+Line 46: Additional reporting took 0.000 seconds total
+Line 46: Translation took 0.118 seconds total
+Translating: 
+Line 47: Initialize search took 0.000 seconds total
+Line 47: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 47: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 47: Decision rule took 0.000 seconds total
+Line 47: Additional reporting took 0.000 seconds total
+Line 47: Translation took 0.000 seconds total
+Translating: شۆرای تەئمینی سەقز بریارگەلێکی نوێی بۆ بەڕێوەچوونی جێژنی نەورۆز گرتەبەر 
+Line 48: Initialize search took 0.000 seconds total
+Line 48: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 48: Search took 0.015 seconds
+BEST TRANSLATION: new military points تەئمینی|UNK|UNK|UNK بریارگەلێکی|UNK|UNK|UNK شۆرای|UNK|UNK|UNK Saqez to بەڕێوەچوونی|UNK|UNK|UNK جێژنی|UNK|UNK|UNK نەورۆز|UNK|UNK|UNK گرتەبەر|UNK|UNK|UNK [1111111111]  [total=-709.769] core=(-700.000,-12.000,10.000,-2.848,-2.378,-2.693,-15.900,0.000,0.000,-1.067,-0.911,0.000,-1.999,-16.000,-90.441)  
+Line 48: Decision rule took 0.000 seconds total
+Line 48: Additional reporting took 0.000 seconds total
+Line 48: Translation took 0.015 seconds total
+Translating: 
+Line 49: Initialize search took 0.000 seconds total
+Line 49: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 49: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 49: Decision rule took 0.000 seconds total
+Line 49: Additional reporting took 0.000 seconds total
+Line 49: Translation took 0.000 seconds total
+Translating: سوپای داگیرکەری تورک لە بلبل دەستی بە دروستکردنی دیوار کرد 
+Line 50: Initialize search took 0.000 seconds total
+Line 50: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 50: Search took 0.036 seconds
+BEST TRANSLATION: in a military operation on دروستکردنی|UNK|UNK|UNK دیوار|UNK|UNK|UNK بلبل|UNK|UNK|UNK [1111111111]  [total=-305.741] core=(-300.000,-8.000,6.000,-10.562,-27.072,-3.925,-15.866,-1.609,0.000,-1.099,-1.609,0.000,-1.099,-15.000,-47.224)  
+Line 50: Decision rule took 0.000 seconds total
+Line 50: Additional reporting took 0.000 seconds total
+Line 50: Translation took 0.037 seconds total
+Translating: 
+Line 51: Initialize search took 0.000 seconds total
+Line 51: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 51: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 51: Decision rule took 0.000 seconds total
+Line 51: Additional reporting took 0.000 seconds total
+Line 51: Translation took 0.000 seconds total
+Translating: داگیرکەران گوندەکانی شەهبایان تۆپباران کرد 
+Line 52: Initialize search took 0.000 seconds total
+Line 52: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 52: Search took 0.004 seconds
+BEST TRANSLATION: village in شەهبایان|UNK|UNK|UNK villages of [11111]  [total=-104.344] core=(-100.000,-5.000,4.000,-5.930,-14.803,-3.045,-4.512,-1.609,0.000,-1.946,-1.946,-0.511,0.000,-9.000,-32.259)  
+Line 52: Decision rule took 0.000 seconds total
+Line 52: Additional reporting took 0.000 seconds total
+Line 52: Translation took 0.004 seconds total
+Translating: 
+Line 53: Initialize search took 0.000 seconds total
+Line 53: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 53: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 53: Decision rule took 0.000 seconds total
+Line 53: Additional reporting took 0.000 seconds total
+Line 53: Translation took 0.000 seconds total
+Translating: ئەو زیندانییە ماوەی سێ ساڵ پێش بە تۆمەتی &quot; کوشتنی بەئەنقەست &quot; لە بانە دەسبەسەر کرا و دواتر بە قیساس مەحکووم کرابوو . 
+Line 54: Initialize search took 0.000 seconds total
+Line 54: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 54: Search took 0.134 seconds
+BEST TRANSLATION: the prisoner in three years ago on charges of &quot; murder &quot; and was transferred to Baneh was arrested was sentenced to death was later sentenced to قیساس|UNK|UNK|UNK . [11111111111111111111111]  [total=-106.657] core=(-100.000,-29.000,13.000,-13.419,-28.335,-11.591,-51.727,-6.497,-1.609,-2.190,-6.421,-1.335,-3.482,-20.000,-75.072)  
+Line 54: Decision rule took 0.000 seconds total
+Line 54: Additional reporting took 0.000 seconds total
+Line 54: Translation took 0.135 seconds total
+Translating: 
+Line 55: Initialize search took 0.000 seconds total
+Line 55: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 55: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 55: Decision rule took 0.000 seconds total
+Line 55: Additional reporting took 0.000 seconds total
+Line 55: Translation took 0.000 seconds total
+Translating: ڕۆژی شەممە 6ی بانەمەڕ ، هاووڵاتییەک بە ناوی &quot; جەمیل خادم &quot; تەمەن 42 ساڵ ، لە سێڕێیانی &quot; سێروو &quot; ی ورمێ ، لەلایەن هێزە ئەمنییەتییەکانەوە دەسبەسەر کرا و بۆ شوێنێکی نادیار ڕاگوێزرا . 
+Line 56: Initialize search took 0.000 seconds total
+Line 56: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 56: Search took 0.231 seconds
+BEST TRANSLATION: on Saturday , May 25th citizen named &quot; , 42|UNK|UNK|UNK &apos;s efforts , سێڕێیانی|UNK|UNK|UNK سێروو|UNK|UNK|UNK &quot; , &quot; in Urmia was arrested by security forces and taken to an unknown location . [11111111111111111111111111111111111]  [total=-308.929] core=(-300.000,-32.000,17.000,-17.392,-45.809,-5.803,-22.609,-2.036,-0.511,-3.758,-3.983,-0.336,-7.498,-30.000,-104.154)  
+Line 56: Decision rule took 0.000 seconds total
+Line 56: Additional reporting took 0.000 seconds total
+Line 56: Translation took 0.232 seconds total
+Translating: 
+Line 57: Initialize search took 0.000 seconds total
+Line 57: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 57: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 57: Decision rule took 0.000 seconds total
+Line 57: Additional reporting took 0.000 seconds total
+Line 57: Translation took 0.000 seconds total
+Translating: ئاژانسی کوردپا : ئێران ئیدعا دەکات کە پلانی چالاکییەکانی حیزبەکانی ڕۆژهەڵات لە کۆنسوولگەریی ئامریکا لە هەولێر دادەڕشترێت ، تا چەندە ئەمە ڕاستە ؟ 
+Line 58: Initialize search took 0.000 seconds total
+Line 58: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 58: Search took 0.078 seconds
+BEST TRANSLATION: Kurdpa Agency : Iran ئیدعا|UNK|UNK|UNK حیزبەکانی|UNK|UNK|UNK Êzidî interest in such activities in the United States ’ کۆنسوولگەریی|UNK|UNK|UNK هەولێر|UNK|UNK|UNK دادەڕشترێت|UNK|UNK|UNK , to چەندە|UNK|UNK|UNK ڕاستە|UNK|UNK|UNK ؟|UNK|UNK|UNK had serious [11111111111111111111111]  [total=-815.987] core=(-800.000,-26.000,20.000,-12.650,-21.252,-9.253,-32.978,-5.905,0.000,-3.584,-5.760,0.000,-3.976,-30.000,-143.920)  
+Line 58: Decision rule took 0.000 seconds total
+Line 58: Additional reporting took 0.000 seconds total
+Line 58: Translation took 0.079 seconds total
+Translating: 
+Line 59: Initialize search took 0.000 seconds total
+Line 59: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 59: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 59: Decision rule took 0.000 seconds total
+Line 59: Additional reporting took 0.000 seconds total
+Line 59: Translation took 0.000 seconds total
+Translating: گۆشەگیری لە کوچوک چەکمەجەى ئیستەنبول ئیدانە کرا 
+Line 60: Initialize search took 0.000 seconds total
+Line 60: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 60: Search took 0.007 seconds
+BEST TRANSLATION: گۆشەگیری|UNK|UNK|UNK کوچوک|UNK|UNK|UNK چەکمەجەى|UNK|UNK|UNK ئیستەنبول|UNK|UNK|UNK ئیدانە|UNK|UNK|UNK in Piranshahr [1111111]  [total=-506.624] core=(-500.000,-7.000,7.000,-3.107,-2.394,-3.635,-4.346,0.000,0.000,-0.815,0.000,0.000,-0.665,-10.000,-55.579)  
+Line 60: Decision rule took 0.000 seconds total
+Line 60: Additional reporting took 0.000 seconds total
+Line 60: Translation took 0.007 seconds total
+Translating: 
+Line 61: Initialize search took 0.000 seconds total
+Line 61: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 61: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 61: Decision rule took 0.000 seconds total
+Line 61: Additional reporting took 0.000 seconds total
+Line 61: Translation took 0.000 seconds total
+Translating: ئەو سەرچاوەیە هەورەها دەڵێت : &quot; بۆ چەندەمین کەڕەت ، بەرپرسانی ئیدارەی ئیتلاعاتی مەریوان ، لەگەڵ هاتنە مەرەخەسی ئەو زیندانییە کوردە ، دژایەتییان کردبوو &quot; . 
+Line 62: Initialize search took 0.000 seconds total
+Line 62: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 62: Search took 0.143 seconds
+BEST TRANSLATION: the , Amnesty International issued a statement urging کەڕەت|UNK|UNK|UNK چەندەمین|UNK|UNK|UNK to the Marivan Intelligence Agency has briefly interviewed هاتنە|UNK|UNK|UNK مەرەخەسی|UNK|UNK|UNK for the Kurdish political prisoners were دژایەتییان|UNK|UNK|UNK . &quot; [11111111111111111111111111]  [total=-511.320] core=(-500.000,-29.000,15.000,-18.059,-48.372,-9.126,-77.837,-4.241,-1.609,-3.509,-6.314,0.000,-5.339,-28.000,-117.223)  
+Line 62: Decision rule took 0.000 seconds total
+Line 62: Additional reporting took 0.000 seconds total
+Line 62: Translation took 0.144 seconds total
+Translating: 
+Line 63: Initialize search took 0.000 seconds total
+Line 63: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 63: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 63: Decision rule took 0.000 seconds total
+Line 63: Additional reporting took 0.000 seconds total
+Line 63: Translation took 0.000 seconds total
+Translating: لە ناوچەی کەمالیەی سەر بە شاری ئەرزینجان بە گوڕی 4.0 پلەی ڕیختەر بومەلەرزەیەک ڕوویدا . 
+Line 64: Initialize search took 0.000 seconds total
+Line 64: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 64: Search took 0.062 seconds
+BEST TRANSLATION: in that a 4.0 magnitude earthquake in Kemaliye , 4.0|UNK|UNK|UNK magnitude of پلەی|UNK|UNK|UNK ڕیختەر|UNK|UNK|UNK armed بومەلەرزەیەک|UNK|UNK|UNK . [111111111111111]  [total=-408.875] core=(-400.000,-17.000,12.000,-13.676,-24.143,-6.356,-33.484,-2.883,-1.609,-3.604,-1.609,-0.511,-2.323,-32.000,-79.522)  
+Line 64: Decision rule took 0.000 seconds total
+Line 64: Additional reporting took 0.000 seconds total
+Line 64: Translation took 0.063 seconds total
+Translating: 
+Line 65: Initialize search took 0.000 seconds total
+Line 65: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 65: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 65: Decision rule took 0.000 seconds total
+Line 65: Additional reporting took 0.000 seconds total
+Line 65: Translation took 0.000 seconds total
+Translating: نازناو : عەفرین 
+Line 66: Initialize search took 0.000 seconds total
+Line 66: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 66: Search took 0.000 seconds
+BEST TRANSLATION: Code Name : Afrin [111]  [total=-1.390] core=(0.000,-4.000,2.000,0.000,-2.133,0.000,-2.227,-1.022,0.000,0.000,-0.511,0.000,0.000,0.000,-17.050)  
+Line 66: Decision rule took 0.000 seconds total
+Line 66: Additional reporting took 0.000 seconds total
+Line 66: Translation took 0.001 seconds total
+Translating: 
+Line 67: Initialize search took 0.000 seconds total
+Line 67: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 67: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 67: Decision rule took 0.000 seconds total
+Line 67: Additional reporting took 0.000 seconds total
+Line 67: Translation took 0.000 seconds total
+Translating: ئەو دوو هاووڵاتییە کوردە ، بەبێ بەڵگەی یاسایی دەسبەسەر کراون و لە چارەنووسیان هیچ زانیارییەک لەبەر دەستدا نییە . 
+Line 68: Initialize search took 0.000 seconds total
+Line 68: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 68: Search took 0.085 seconds
+BEST TRANSLATION: these two Kurdish citizens to the arrested without legal authorization and چارەنووسیان|UNK|UNK|UNK unknown location . [1111111111111111111]  [total=-104.864] core=(-100.000,-15.000,8.000,-15.649,-47.186,-4.197,-20.204,-3.730,-1.099,-1.810,-2.734,-1.609,-1.273,-14.000,-47.935)  
+Line 68: Decision rule took 0.000 seconds total
+Line 68: Additional reporting took 0.000 seconds total
+Line 68: Translation took 0.086 seconds total
+Translating: 
+Line 69: Initialize search took 0.000 seconds total
+Line 69: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 69: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 69: Decision rule took 0.000 seconds total
+Line 69: Additional reporting took 0.000 seconds total
+Line 69: Translation took 0.000 seconds total
+Translating: دادگای پێداچوونەوەی سنە بە ڕەتکردنەوەی پێداچوونەوەی دۆسیەی ئەو چالاکە کرێکارییە ، بە پشتبەستن بە بەندی ئەلفی مادەی 455ی یاسای ئایینی دادڕەسیی کەیفەری ، بەرگەی فەرمیی پێداچوونەوەی پشتڕاست کردەوە و ئەوە بڕیاری کۆتاییە . 
+Line 70: Initialize search took 0.000 seconds total
+Line 70: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 70: Search took 0.112 seconds
+BEST TRANSLATION: the Sanandaj Court of Appeals ڕەتکردنەوەی|UNK|UNK|UNK to the case of this labor activist was released from Sanandaj Court of Appeals according to the بەندی|UNK|UNK|UNK ئەلفی|UNK|UNK|UNK مادەی|UNK|UNK|UNK 455ی|UNK|UNK|UNK یاسای|UNK|UNK|UNK Teachers دادڕەسیی|UNK|UNK|UNK کەیفەری|UNK|UNK|UNK بەرگەی|UNK|UNK|UNK فەرمیی|UNK|UNK|UNK Court of Appeals , upheld the militias supported by کۆتاییە|UNK|UNK|UNK and بڕیاری|UNK|UNK|UNK . [111111111111111111111111111111111]  [total=-1221.201] core=(-1200.000,-46.000,25.000,-10.358,-28.928,-11.472,-69.652,-3.478,-1.946,-6.683,-1.358,0.000,-5.786,-32.000,-217.417)  
+Line 70: Decision rule took 0.000 seconds total
+Line 70: Additional reporting took 0.000 seconds total
+Line 70: Translation took 0.113 seconds total
+Translating: 
+Line 71: Initialize search took 0.000 seconds total
+Line 71: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 71: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 71: Decision rule took 0.000 seconds total
+Line 71: Additional reporting took 0.000 seconds total
+Line 71: Translation took 0.000 seconds total
+Translating: ئیدارەی فەرهەنگ و ئیرشادی ورمێ ئیزنی ڕێزگرتنیان بە &quot; عوسمانە سوور &quot; نەدا 
+Line 72: Initialize search took 0.000 seconds total
+Line 72: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 72: Search took 0.047 seconds
+BEST TRANSLATION: the culture and was transferred to ward three of Urmia ئیرشادی|UNK|UNK|UNK ئیزنی|UNK|UNK|UNK ڕێزگرتنیان|UNK|UNK|UNK of &quot; عوسمانە|UNK|UNK|UNK نەدا|UNK|UNK|UNK Azadiyê ( The &quot; [1111111111111]  [total=-509.773] core=(-500.000,-21.000,11.000,-9.080,-11.316,-8.391,-51.793,-3.278,0.000,-1.022,-2.372,-0.511,-1.609,-9.000,-97.079)  
+Line 72: Decision rule took 0.000 seconds total
+Line 72: Additional reporting took 0.000 seconds total
+Line 72: Translation took 0.048 seconds total
+Translating: 
+Line 73: Initialize search took 0.000 seconds total
+Line 73: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 73: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 73: Decision rule took 0.000 seconds total
+Line 73: Additional reporting took 0.000 seconds total
+Line 73: Translation took 0.000 seconds total
+Translating: ڕێوڕەسمی جێژنی نەورۆز لە مەلەکشاهیی ئیلام هەڵوەشایەوە 
+Line 74: Initialize search took 0.000 seconds total
+Line 74: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 74: Search took 0.004 seconds
+BEST TRANSLATION: in ڕێوڕەسمی|UNK|UNK|UNK جێژنی|UNK|UNK|UNK نەورۆز|UNK|UNK|UNK مەلەکشاهیی|UNK|UNK|UNK ئیلام|UNK|UNK|UNK هەڵوەشایەوە|UNK|UNK|UNK [1111111]  [total=-606.869] core=(-600.000,-7.000,7.000,-0.622,-0.448,-1.070,-0.865,0.000,0.000,-0.305,0.000,0.000,-0.665,-8.000,-62.348)  
+Line 74: Decision rule took 0.000 seconds total
+Line 74: Additional reporting took 0.000 seconds total
+Line 74: Translation took 0.004 seconds total
+Translating: 
+Line 75: Initialize search took 0.000 seconds total
+Line 75: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 75: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 75: Decision rule took 0.000 seconds total
+Line 75: Additional reporting took 0.000 seconds total
+Line 75: Translation took 0.000 seconds total
+Translating: کارەکتەری سەرەکی لە فیلمەکەدا بەهارە . 
+Line 76: Initialize search took 0.000 seconds total
+Line 76: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 76: Search took 0.011 seconds
+BEST TRANSLATION: the film بەهارە|UNK|UNK|UNK more کارەکتەری|UNK|UNK|UNK . [111111]  [total=-203.727] core=(-200.000,-6.000,5.000,-2.979,-5.310,-1.176,-8.727,0.000,0.000,-1.820,-1.946,-0.511,0.000,-12.000,-34.931)  
+Line 76: Decision rule took 0.000 seconds total
+Line 76: Additional reporting took 0.000 seconds total
+Line 76: Translation took 0.011 seconds total
+Translating: 
+Line 77: Initialize search took 0.000 seconds total
+Line 77: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 77: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 77: Decision rule took 0.000 seconds total
+Line 77: Additional reporting took 0.000 seconds total
+Line 77: Translation took 0.000 seconds total
+Translating: بڕیار وایە شاندێکی ڕوسی لە ئەنکەرە چەندین چاوپێکەوتن ئەنجام بدات و بەر لە ئەنجامدانی چاوپێکەوتنەکانیش چەتەکانی دەوڵەتی تورک بریاریان داوە لە ڕێگای نێودەوڵەتی M5 بکشێنەوە . 
+Line 78: Initialize search took 0.000 seconds total
+Line 78: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 78: Search took 0.078 seconds
+BEST TRANSLATION: in بڕیار|UNK|UNK|UNK وایە|UNK|UNK|UNK شاندێکی|UNK|UNK|UNK ڕوسی|UNK|UNK|UNK ئەنکەرە|UNK|UNK|UNK چەندین|UNK|UNK|UNK چاوپێکەوتن|UNK|UNK|UNK ئەنجام|UNK|UNK|UNK بدات|UNK|UNK|UNK and بەر|UNK|UNK|UNK چاوپێکەوتنەکانیش|UNK|UNK|UNK Turkish-backed mercenaries in ئەنجامدانی|UNK|UNK|UNK بریاریان|UNK|UNK|UNK their lives in withdraw from some areas along the نێودەوڵەتی|UNK|UNK|UNK بکشێنەوە|UNK|UNK|UNK . [11111111111111111111111111]  [total=-1519.858] core=(-1500.000,-30.000,23.000,-6.393,-26.108,-9.542,-48.387,-2.911,0.000,-1.631,-2.810,0.000,-2.198,-30.000,-187.840)  
+Line 78: Decision rule took 0.000 seconds total
+Line 78: Additional reporting took 0.000 seconds total
+Line 78: Translation took 0.079 seconds total
+Translating: 
+Line 79: Initialize search took 0.000 seconds total
+Line 79: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 79: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 79: Decision rule took 0.000 seconds total
+Line 79: Additional reporting took 0.000 seconds total
+Line 79: Translation took 0.000 seconds total
+Translating: لە ماوەی ڕابردوودا ، ناوەندە ئەمنییەتییەکان چەندین جار ئەو لاوە کوردەیان بانگهێشت کردووە و لێپرسینەوەیان لێکردبوو . 
+Line 80: Initialize search took 0.000 seconds total
+Line 80: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 80: Search took 0.054 seconds
+BEST TRANSLATION: a few days ناوەندە|UNK|UNK|UNK چەندین|UNK|UNK|UNK times intelligence , the young man , لێکردبوو|UNK|UNK|UNK بانگهێشت|UNK|UNK|UNK لێپرسینەوەیان|UNK|UNK|UNK . [11111111111111111]  [total=-509.793] core=(-500.000,-16.000,13.000,-16.811,-32.980,-4.543,-18.859,-2.631,0.000,-2.534,-1.609,0.000,-5.304,-22.000,-87.424)  
+Line 80: Decision rule took 0.000 seconds total
+Line 80: Additional reporting took 0.000 seconds total
+Line 80: Translation took 0.055 seconds total
+Translating: 
+Line 81: Initialize search took 0.000 seconds total
+Line 81: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 81: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 81: Decision rule took 0.000 seconds total
+Line 81: Additional reporting took 0.000 seconds total
+Line 81: Translation took 0.000 seconds total
+Translating: لەو پەیوەندییە و لە ماوەی ڕۆژانی ڕابردوودا ، کۆڵبەرێکی کورد بە ناوی &quot; محەممەد قادری &quot; لە بەرزاییەکانی سنووری سەردەشت ، بە تەقەی هێزەکانی سپای پاسداران بریندار کرابوو . 
+Line 82: Initialize search took 0.000 seconds total
+Line 82: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 82: Search took 0.208 seconds
+BEST TRANSLATION: پەیوەندییە|UNK|UNK|UNK in and in recent days , a Kurdish Kolbar named &quot; Mohammad Qaderi &quot; , in the border of سەردەشت|UNK|UNK|UNK government troops fired at the Revolutionary Guards were killed . [11111111111111111111111111111]  [total=-209.738] core=(-200.000,-31.000,16.000,-22.398,-41.667,-12.545,-48.229,-7.473,-2.833,-2.155,-8.905,0.000,-1.332,-14.000,-97.732)  
+Line 82: Decision rule took 0.000 seconds total
+Line 82: Additional reporting took 0.000 seconds total
+Line 82: Translation took 0.210 seconds total
+Translating: 
+Line 83: Initialize search took 0.000 seconds total
+Line 83: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 83: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 83: Decision rule took 0.000 seconds total
+Line 83: Additional reporting took 0.000 seconds total
+Line 83: Translation took 0.000 seconds total
+Translating: حوکمی ئەو زیندانییە لە لقی 31ی دیوانی باڵای وڵات پشتڕاست و ئەو زیندانییە لە ماوەی دەسبەسەر کرانیدا ، چەندین جار ناڕەزایەتی سەبارەت بە نادادپەروەرانەبوونی حوکمەکەی دەربڕیبوو و دەستی دابووە مانگرتن لە خواردن . 
+Line 84: Initialize search took 0.000 seconds total
+Line 84: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 84: Search took 0.140 seconds
+BEST TRANSLATION: the prisoner &apos;s sentence was upheld by Branch 31 of the Supreme Court and the prisoner hunger strike several times during his imprisonment to protest the unfairness of his sentence in went on a . [111111111111111111111111111111111]  [total=-4.700] core=(0.000,-35.000,12.000,-15.908,-66.924,-10.944,-82.411,-6.434,-3.170,-1.663,-6.246,-4.599,-2.245,-18.000,-72.803)  
+Line 84: Decision rule took 0.000 seconds total
+Line 84: Additional reporting took 0.000 seconds total
+Line 84: Translation took 0.141 seconds total
+Translating: 
+Line 85: Initialize search took 0.000 seconds total
+Line 85: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 85: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 85: Decision rule took 0.000 seconds total
+Line 85: Additional reporting took 0.000 seconds total
+Line 85: Translation took 0.000 seconds total
+Translating: کۆمۆنی فیلمی ڕۆژئاوا لە ناوەندی کلتور و هونەری محەمەد شێخۆ فیلمی &apos; بۆ ئازادی &apos; نمایشکراد . 
+Line 86: Initialize search took 0.000 seconds total
+Line 86: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 86: Search took 0.063 seconds
+BEST TRANSLATION: the ڕۆژئاوا|UNK|UNK|UNK کۆمۆنی|UNK|UNK|UNK about the محەمەد|UNK|UNK|UNK and Art شێخۆ|UNK|UNK|UNK the film Ji نمایشکراد|UNK|UNK|UNK . [11111111111111111]  [total=-508.674] core=(-500.000,-14.000,10.000,-6.871,-35.053,-1.582,-10.897,-1.515,-0.511,-1.810,-1.299,0.000,-1.022,-12.000,-83.944)  
+Line 86: Decision rule took 0.000 seconds total
+Line 86: Additional reporting took 0.000 seconds total
+Line 86: Translation took 0.063 seconds total
+Translating: 
+Line 87: Initialize search took 0.000 seconds total
+Line 87: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 87: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 87: Decision rule took 0.000 seconds total
+Line 87: Additional reporting took 0.000 seconds total
+Line 87: Translation took 0.000 seconds total
+Translating: هەپەگە ناسنامەی گەریلایەکی ئاشکرا کرد کە لە سەرهەد شەهید بووە 
+Line 88: Initialize search took 0.000 seconds total
+Line 88: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 88: Search took 0.032 seconds
+BEST TRANSLATION: HPG ناسنامەی|UNK|UNK|UNK گەریلایەکی|UNK|UNK|UNK سەرهەد|UNK|UNK|UNK شەهید|UNK|UNK|UNK fell in the [1111111111]  [total=-407.151] core=(-400.000,-8.000,8.000,-10.414,-18.188,-3.569,-5.612,-0.236,0.000,-1.418,-0.111,0.000,-1.022,-17.000,-58.379)  
+Line 88: Decision rule took 0.000 seconds total
+Line 88: Additional reporting took 0.000 seconds total
+Line 88: Translation took 0.033 seconds total
+Translating: 
+Line 89: Initialize search took 0.000 seconds total
+Line 89: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 89: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 89: Decision rule took 0.000 seconds total
+Line 89: Additional reporting took 0.000 seconds total
+Line 89: Translation took 0.000 seconds total
+Translating: تەرمی ئەندامی گروپی یۆروم ئیبراهیم گۆکچەک کە دوای 323 ڕۆژ لە مانگرتن و دوو ڕۆژ لە کۆتاییهێنان بە مانگرتنەکە شەهید بوو ، لە پزیشکی دادوەری ڕادەگیرا ، شەوی ڕابردوو لەگەڵ پۆلیس بۆ گۆڕستانی گوسولهانەسی گواسترایەوە . 
+Line 90: Initialize search took 0.000 seconds total
+Line 90: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 90: Search took 0.151 seconds
+BEST TRANSLATION: the body of the Mehmet یۆروم|UNK|UNK|UNK Ebrahim گۆکچەک|UNK|UNK|UNK went 323|UNK|UNK|UNK days after two days of women who were sold off , and کۆتاییهێنان|UNK|UNK|UNK مانگرتنەکە|UNK|UNK|UNK شەهید|UNK|UNK|UNK in the Medical ڕادەگیرا|UNK|UNK|UNK , the judge in charge of پۆلیس|UNK|UNK|UNK gangs bombed to گۆڕستانی|UNK|UNK|UNK گواسترایەوە|UNK|UNK|UNK گوسولهانەسی|UNK|UNK|UNK . [111111111111111111111111111111111111]  [total=-1125.586] core=(-1100.000,-43.000,31.000,-27.005,-38.943,-22.596,-71.271,-3.942,-0.511,-9.422,-5.488,-2.989,-9.988,-62.000,-218.503)  
+Line 90: Decision rule took 0.000 seconds total
+Line 90: Additional reporting took 0.000 seconds total
+Line 90: Translation took 0.153 seconds total
+Translating: 
+Line 91: Initialize search took 0.000 seconds total
+Line 91: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 91: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 91: Decision rule took 0.000 seconds total
+Line 91: Additional reporting took 0.000 seconds total
+Line 91: Translation took 0.000 seconds total
+Translating: راگەیاندراوى ڕێکخراوە مەدەنییەکانی مەریوان بە بۆنەى رۆژى جیهانیى زمانى دایکەوە 
+Line 92: Initialize search took 0.000 seconds total
+Line 92: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 92: Search took 0.012 seconds
+BEST TRANSLATION: as the civil organizations in Marivan راگەیاندراوى|UNK|UNK|UNK to بۆنەى|UNK|UNK|UNK رۆژى|UNK|UNK|UNK جیهانیى|UNK|UNK|UNK زمانى|UNK|UNK|UNK دایکەوە|UNK|UNK|UNK [1111111111]  [total=-608.311] core=(-600.000,-13.000,9.000,-3.081,-5.306,-5.107,-10.730,-0.511,0.000,-1.890,-2.205,0.000,-1.609,-8.000,-75.715)  
+Line 92: Decision rule took 0.000 seconds total
+Line 92: Additional reporting took 0.000 seconds total
+Line 92: Translation took 0.013 seconds total
+Translating: 
+Line 93: Initialize search took 0.000 seconds total
+Line 93: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 93: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 93: Decision rule took 0.000 seconds total
+Line 93: Additional reporting took 0.000 seconds total
+Line 93: Translation took 0.000 seconds total
+Translating: لە جێگەی هەر ژنێک کە ئێوە دەڕفێنن ، شەڕڤانێکی نوێ دروست دەبێت . 
+Line 94: Initialize search took 0.000 seconds total
+Line 94: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 94: Search took 0.035 seconds
+BEST TRANSLATION: the in the جێگەی|UNK|UNK|UNK ژنێک|UNK|UNK|UNK your دەڕفێنن|UNK|UNK|UNK شەڕڤانێکی|UNK|UNK|UNK sets up new military , this 120-bed . [1111111111111]  [total=-409.992] core=(-400.000,-16.000,13.000,-18.545,-16.681,-5.901,-29.125,0.000,0.000,-5.194,-1.099,0.000,-4.706,-28.000,-87.099)  
+Line 94: Decision rule took 0.000 seconds total
+Line 94: Additional reporting took 0.000 seconds total
+Line 94: Translation took 0.035 seconds total
+Translating: 
+Line 95: Initialize search took 0.000 seconds total
+Line 95: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 95: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 95: Decision rule took 0.000 seconds total
+Line 95: Additional reporting took 0.000 seconds total
+Line 95: Translation took 0.000 seconds total
+Translating: خانەوادە و پارێزەران بۆ ئەوەی بچنە ئیمڕالی سەردانیان کرد 
+Line 96: Initialize search took 0.000 seconds total
+Line 96: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 96: Search took 0.024 seconds
+BEST TRANSLATION: خانەوادە|UNK|UNK|UNK and پارێزەران|UNK|UNK|UNK بچنە|UNK|UNK|UNK to the Syrian army took Saraqeb ئیمڕالی|UNK|UNK|UNK office through their lawyers [111111111]  [total=-407.834] core=(-400.000,-15.000,9.000,-5.983,-6.936,-6.746,-45.951,-1.397,0.000,-2.010,-0.369,0.000,-1.353,-15.000,-75.532)  
+Line 96: Decision rule took 0.000 seconds total
+Line 96: Additional reporting took 0.000 seconds total
+Line 96: Translation took 0.024 seconds total
+Translating: 
+Line 97: Initialize search took 0.000 seconds total
+Line 97: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 97: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 97: Decision rule took 0.000 seconds total
+Line 97: Additional reporting took 0.000 seconds total
+Line 97: Translation took 0.000 seconds total
+Translating: ئەو پەناخوازە کوردە ڕایگەیاند : &quot; پاش بڕینەوەی حوکمی دادگا ، عادڵ بەهرامی بۆ ماوەی یەک ساڵ لە گێری گۆندەرمە ، ناوەندی ئانتالیا ڕاگیرا و پاش گواستنەوەی بۆ کەمپی ئاگری ، ڕۆژی پێنجشەممە ، 26ی دێسامبر ، لە سنووری بازرگانەوە دیپۆرت کرایەوە &quot; . 
+Line 98: Initialize search took 0.001 seconds total
+Line 98: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 98: Search took 0.242 seconds
+BEST TRANSLATION: trial of the Kurdish after بڕینەوەی|UNK|UNK|UNK , Adel Bahrami , sentence was upheld by the court has charged to 1 years in in the گۆندەرمە|UNK|UNK|UNK گێری|UNK|UNK|UNK , and after moving to Antalya ڕاگیرا|UNK|UNK|UNK ئاگری|UNK|UNK|UNK کەمپی|UNK|UNK|UNK on Thursday , دێسامبر|UNK|UNK|UNK 16th , a Kurdish بازرگانەوە|UNK|UNK|UNK کرایەوە|UNK|UNK|UNK دیپۆرت|UNK|UNK|UNK . &quot; [11111111111111111111111111111111111111111111]  [total=-1024.604] core=(-1000.000,-48.000,33.000,-32.983,-57.754,-17.698,-54.951,-2.294,-0.336,-9.750,-8.589,0.000,-9.533,-62.000,-225.760)  
+Line 98: Decision rule took 0.000 seconds total
+Line 98: Additional reporting took 0.000 seconds total
+Line 98: Translation took 0.244 seconds total
+Translating: 
+Line 99: Initialize search took 0.000 seconds total
+Line 99: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 99: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 99: Decision rule took 0.000 seconds total
+Line 99: Additional reporting took 0.000 seconds total
+Line 99: Translation took 0.000 seconds total
+Translating: بە هۆی پەتایی کۆڕۆناوە بەشێکی زۆر لە هاووڵاتیانی جیهان لە ماڵەکانی خۆیاندا دەمێننەوە ، بەشێک لەو گەنجەکانەی کە دەیانخواست لەم قۆناغەدا کارێکی باش بکەن ، لە ڕێگەی فێرگەی کوردییەوە دەست بە کاربوون بۆ کارەکەیان . 
+Line 100: Initialize search took 0.000 seconds total
+Line 100: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 100: Search took 0.125 seconds
+BEST TRANSLATION: a high پەتایی|UNK|UNK|UNK کۆڕۆناوە|UNK|UNK|UNK over coronavirus in هاووڵاتیانی|UNK|UNK|UNK in ماڵەکانی|UNK|UNK|UNK خۆیاندا|UNK|UNK|UNK دەمێننەوە|UNK|UNK|UNK بەشێک|UNK|UNK|UNK گەنجەکانەی|UNK|UNK|UNK دەیانخواست|UNK|UNK|UNK , in the in the قۆناغەدا|UNK|UNK|UNK کارێکی|UNK|UNK|UNK باش|UNK|UNK|UNK , also applied to the فێرگەی|UNK|UNK|UNK کوردییەوە|UNK|UNK|UNK دەست|UNK|UNK|UNK to کارەکەیان|UNK|UNK|UNK to کاربوون|UNK|UNK|UNK . [11111111111111111111111111111111111]  [total=-1726.050] core=(-1700.000,-36.000,32.000,-30.464,-40.585,-14.554,-27.259,-0.511,0.000,-5.617,-3.360,0.000,-4.030,-44.000,-226.171)  
+Line 100: Decision rule took 0.000 seconds total
+Line 100: Additional reporting took 0.000 seconds total
+Line 100: Translation took 0.126 seconds total
+Translating: 
+Line 101: Initialize search took 0.000 seconds total
+Line 101: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 101: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 101: Decision rule took 0.000 seconds total
+Line 101: Additional reporting took 0.000 seconds total
+Line 101: Translation took 0.000 seconds total
+Translating: بە تەقەی هێزە نیزامییەکانی تورکیە دوو کۆڵبەر کوژران و بریندار بوون 
+Line 102: Initialize search took 0.000 seconds total
+Line 102: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 102: Search took 0.049 seconds
+BEST TRANSLATION: Turkish shot dead by Iranian government forces were killed and two Kurdish Kolbars were wounded [11111111111]  [total=-3.586] core=(0.000,-15.000,5.000,-6.269,-18.193,-3.738,-32.316,0.000,-3.555,-3.296,0.000,-3.045,-0.847,-18.000,-42.320)  
+Line 102: Decision rule took 0.000 seconds total
+Line 102: Additional reporting took 0.000 seconds total
+Line 102: Translation took 0.050 seconds total
+Translating: 
+Line 103: Initialize search took 0.000 seconds total
+Line 103: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 103: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 103: Decision rule took 0.000 seconds total
+Line 103: Additional reporting took 0.000 seconds total
+Line 103: Translation took 0.000 seconds total
+Translating: کچانی رۆژ لە دژی داعش 
+Line 104: Initialize search took 0.000 seconds total
+Line 104: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 104: Search took 0.005 seconds
+BEST TRANSLATION: the Sun ” رۆژ|UNK|UNK|UNK ISIS [11111]  [total=-104.365] core=(-100.000,-5.000,4.000,-8.880,-9.442,-3.526,-10.942,0.000,0.000,-1.273,-1.609,0.000,-0.511,-8.000,-33.522)  
+Line 104: Decision rule took 0.000 seconds total
+Line 104: Additional reporting took 0.000 seconds total
+Line 104: Translation took 0.005 seconds total
+Translating: 
+Line 105: Initialize search took 0.000 seconds total
+Line 105: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 105: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 105: Decision rule took 0.000 seconds total
+Line 105: Additional reporting took 0.000 seconds total
+Line 105: Translation took 0.000 seconds total
+Translating: بە وتەی سەرچاوەیەکی ئاگادار ، هێزە ئیتلاعاتییەکان &quot; عوبەید عزیزنژاد &quot; یان بە تۆمەتی &quot; هاوکاری لەگەڵ یەکێک لە حیزبە کوردییەکانی ئۆپۆزسیۆنی حکوومەتی ئێران &quot; دەسبەسەر کردووە . 
+Line 106: Initialize search took 0.000 seconds total
+Line 106: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 106: Search took 0.184 seconds
+BEST TRANSLATION: according to an informed source , the intelligence forces &quot; یان|UNK|UNK|UNK عوبەید|UNK|UNK|UNK Aziz Nejad , on charges of &quot; cooperating with one of the Kurdish opposition parties of the Iranian government &quot; . [1111111111111111111111111111]  [total=-203.582] core=(-200.000,-33.000,10.000,-7.354,-39.246,-4.232,-33.959,-4.657,0.000,-0.336,-7.111,0.000,-1.439,-8.000,-73.703)  
+Line 106: Decision rule took 0.000 seconds total
+Line 106: Additional reporting took 0.000 seconds total
+Line 106: Translation took 0.186 seconds total
+Translating: 
+Line 107: Initialize search took 0.000 seconds total
+Line 107: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 107: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 107: Decision rule took 0.000 seconds total
+Line 107: Additional reporting took 0.000 seconds total
+Line 107: Translation took 0.000 seconds total
+Translating: تەرمی شەڕڤانی قەسەدە خالۆ کۆبانێ بەخاکسپێردرا 
+Line 108: Initialize search took 0.000 seconds total
+Line 108: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 108: Search took 0.002 seconds
+BEST TRANSLATION: the body of شەڕڤانی|UNK|UNK|UNK خالۆ|UNK|UNK|UNK بەخاکسپێردرا|UNK|UNK|UNK measures against the film was shot [111111]  [total=-306.274] core=(-300.000,-12.000,6.000,0.000,-4.382,-3.989,-23.733,-0.511,0.000,-1.022,-0.511,0.000,-0.511,-7.000,-63.327)  
+Line 108: Decision rule took 0.000 seconds total
+Line 108: Additional reporting took 0.000 seconds total
+Line 108: Translation took 0.002 seconds total
+Translating: 
+Line 109: Initialize search took 0.000 seconds total
+Line 109: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 109: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 109: Decision rule took 0.000 seconds total
+Line 109: Additional reporting took 0.000 seconds total
+Line 109: Translation took 0.000 seconds total
+Translating: ئەنجوومەنى نێونەتەوەیی مافەکانی مرۆڤ داواى ئازادکردنی گولسەر یڵدرم دەکات 
+Line 110: Initialize search took 0.000 seconds total
+Line 110: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 110: Search took 0.002 seconds
+BEST TRANSLATION: the International Society for Human Rights داواى|UNK|UNK|UNK ئەنجوومەنى|UNK|UNK|UNK ئازادکردنی|UNK|UNK|UNK Hamili گولسەر|UNK|UNK|UNK online [111111111]  [total=-406.942] core=(-400.000,-12.000,7.000,0.000,-8.233,-1.872,-20.992,0.000,0.000,-1.358,-0.511,-0.511,0.000,-14.000,-71.091)  
+Line 110: Decision rule took 0.000 seconds total
+Line 110: Additional reporting took 0.000 seconds total
+Line 110: Translation took 0.003 seconds total
+Translating: 
+Line 111: Initialize search took 0.000 seconds total
+Line 111: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 111: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 111: Decision rule took 0.000 seconds total
+Line 111: Additional reporting took 0.000 seconds total
+Line 111: Translation took 0.000 seconds total
+Translating: یەکێک لە کاندیدەکانی ATHENA40 ، سوسەن محەمەدی خەڵکی باشوورە 
+Line 112: Initialize search took 0.000 seconds total
+Line 112: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 112: Search took 0.023 seconds
+BEST TRANSLATION: one of the کاندیدەکانی|UNK|UNK|UNK ATHENA40|UNK|UNK|UNK سوسەن|UNK|UNK|UNK محەمەدی|UNK|UNK|UNK , from باشوورە|UNK|UNK|UNK [111111111]  [total=-506.886] core=(-500.000,-10.000,8.000,-2.559,-4.772,-2.643,-5.378,-0.588,0.000,-1.449,-1.557,0.000,-0.553,-6.000,-63.890)  
+Line 112: Decision rule took 0.000 seconds total
+Line 112: Additional reporting took 0.000 seconds total
+Line 112: Translation took 0.024 seconds total
+Translating: 
+Line 113: Initialize search took 0.000 seconds total
+Line 113: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 113: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 113: Decision rule took 0.000 seconds total
+Line 113: Additional reporting took 0.000 seconds total
+Line 113: Translation took 0.000 seconds total
+Translating: ڕۆژی یەکشەممە 14ی بانەمەڕ ، دوو هاووڵاتیی کوردی خەڵکی سنە ، بە ناوەکانی &quot; تارق ڕەحیم پوور &quot; کوڕی &quot; مووسا &quot; و &quot; بێنیامین ڕەحیم پوور &quot; کوڕی &quot; مووسا &quot; ، لەلایەن هێزە ئەمنییەتییەکانەوە دەسبەسەر کران و بۆ شوێنێکی نادیار ڕاگوێزران . 
+Line 114: Initialize search took 0.001 seconds total
+Line 114: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 114: Search took 0.270 seconds
+BEST TRANSLATION: on Sunday , May 3rd , from Sanandaj , two Kurdish citizens named &quot; Rahim تارق|UNK|UNK|UNK پوور|UNK|UNK|UNK , son of &quot; and &quot; Rahim مووسا|UNK|UNK|UNK بێنیامین|UNK|UNK|UNK پوور|UNK|UNK|UNK , son of مووسا|UNK|UNK|UNK , were arrested by security forces Sepah Detention center and taken to an unknown location . [11111111111111111111111111111111111111111111]  [total=-613.041] core=(-600.000,-47.000,25.000,-14.671,-39.729,-6.143,-42.031,-3.671,-0.588,-8.677,-1.822,-1.861,-13.451,-42.000,-157.493)  
+Line 114: Decision rule took 0.000 seconds total
+Line 114: Additional reporting took 0.000 seconds total
+Line 114: Translation took 0.272 seconds total
+Translating: 
+Line 115: Initialize search took 0.000 seconds total
+Line 115: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 115: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 115: Decision rule took 0.000 seconds total
+Line 115: Additional reporting took 0.000 seconds total
+Line 115: Translation took 0.000 seconds total
+Translating: لە قامشلۆ رژێم هێرشی کرد ، ئەندامێکی ئاسایش شەهید بوو 
+Line 116: Initialize search took 0.000 seconds total
+Line 116: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 116: Search took 0.030 seconds
+BEST TRANSLATION: allegedly Qamishlo رژێم|UNK|UNK|UNK in the 71st International Film Festival , ئەندامێکی|UNK|UNK|UNK ئاسایش|UNK|UNK|UNK شەهید|UNK|UNK|UNK [1111111111]  [total=-408.561] core=(-400.000,-13.000,10.000,-9.437,-5.867,-6.707,-30.300,0.000,0.000,-2.519,-1.485,0.000,-1.997,-21.000,-74.974)  
+Line 116: Decision rule took 0.000 seconds total
+Line 116: Additional reporting took 0.000 seconds total
+Line 116: Translation took 0.030 seconds total
+Translating: 
+Line 117: Initialize search took 0.000 seconds total
+Line 117: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 117: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 117: Decision rule took 0.000 seconds total
+Line 117: Additional reporting took 0.000 seconds total
+Line 117: Translation took 0.000 seconds total
+Translating: دەسبەسەرکردنی ئەو لاوە کوردە بەبێ بەڵگەی یاسایی بووە و هەتا ئێستا هیچ زانیارییەک لەمەڕ چارەنووسی ناوبراو لەبەر دەستدا نییە . 
+Line 118: Initialize search took 0.000 seconds total
+Line 118: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 118: Search took 0.071 seconds
+BEST TRANSLATION: the detainee was taken without legal authorization and so far his fate he is unknown . [11111111111111111111]  [total=-2.824] core=(0.000,-16.000,6.000,-5.667,-30.282,-3.352,-24.238,-2.589,0.000,0.000,-4.818,0.000,0.000,0.000,-42.785)  
+Line 118: Decision rule took 0.000 seconds total
+Line 118: Additional reporting took 0.000 seconds total
+Line 118: Translation took 0.072 seconds total
+Translating: 
+Line 119: Initialize search took 0.000 seconds total
+Line 119: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 119: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 119: Decision rule took 0.000 seconds total
+Line 119: Additional reporting took 0.000 seconds total
+Line 119: Translation took 0.000 seconds total
+Translating: دادگای ئینقلابی سنە سێ ساڵ زیندانیی بەسەر &quot; سیروان ئیبراهیمی &quot; ، بەرپرسی لقی ئەنجومەنی فەرهەنگی- کۆمەڵایەتیی &quot; نۆژین &quot; لە شاری کامیاران سەپاند . 
+Line 120: Initialize search took 0.000 seconds total
+Line 120: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 120: Search took 0.098 seconds
+BEST TRANSLATION: the Sanandaj Revolutionary Court of a Sirvan ئیبراهیمی|UNK|UNK|UNK , the head of the Nojin Socio-cultural Association in Kamyaran &apos;s branch . [1111111111111111111111111]  [total=-106.545] core=(-100.000,-21.000,11.000,-27.078,-50.243,-5.325,-29.049,-7.329,-0.511,-2.061,-5.594,-2.398,-1.358,-8.000,-64.612)  
+Line 120: Decision rule took 0.000 seconds total
+Line 120: Additional reporting took 0.000 seconds total
+Line 120: Translation took 0.099 seconds total
+Translating: 
+Line 121: Initialize search took 0.000 seconds total
+Line 121: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 121: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 121: Decision rule took 0.000 seconds total
+Line 121: Additional reporting took 0.000 seconds total
+Line 121: Translation took 0.000 seconds total
+Translating: لە وان تیرۆری پۆلیسی تورک : ١٤ کەس دەستگیرکران 
+Line 122: Initialize search took 0.000 seconds total
+Line 122: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 122: Search took 0.013 seconds
+BEST TRANSLATION: Turkish : تیرۆری|UNK|UNK|UNK in Van Turkish police at ١٤|UNK|UNK|UNK people دەستگیرکران|UNK|UNK|UNK [111111111]  [total=-307.469] core=(-300.000,-11.000,9.000,-5.894,-7.957,-2.335,-8.039,-1.675,0.000,-2.251,-4.723,0.000,-3.219,-14.000,-67.473)  
+Line 122: Decision rule took 0.000 seconds total
+Line 122: Additional reporting took 0.000 seconds total
+Line 122: Translation took 0.014 seconds total
+Translating: 
+Line 123: Initialize search took 0.000 seconds total
+Line 123: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 123: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 123: Decision rule took 0.000 seconds total
+Line 123: Additional reporting took 0.000 seconds total
+Line 123: Translation took 0.000 seconds total
+Translating: دوو ساڵ زیندان بەسەر لاوێکی مەهابادیدا سەپا 
+Line 124: Initialize search took 0.000 seconds total
+Line 124: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 124: Search took 0.014 seconds
+BEST TRANSLATION: two years in prison مەهابادیدا|UNK|UNK|UNK سەپا|UNK|UNK|UNK of another Kurdish youth in Marivan [1111111]  [total=-204.749] core=(-200.000,-12.000,5.000,-4.543,-6.540,-3.555,-30.173,-3.219,0.000,-0.452,-2.398,0.000,-0.511,-6.000,-50.246)  
+Line 124: Decision rule took 0.000 seconds total
+Line 124: Additional reporting took 0.000 seconds total
+Line 124: Translation took 0.014 seconds total
+Translating: 
+Line 125: Initialize search took 0.000 seconds total
+Line 125: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 125: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 125: Decision rule took 0.000 seconds total
+Line 125: Additional reporting took 0.000 seconds total
+Line 125: Translation took 0.000 seconds total
+Translating: پانێل 7ی ئایار کاتژمێر 19 : 00 دەستپیدەکات و هەموو کەسێک دەتوانێت لە ڕێگەی ئەم لینکەی خوارەوە ، تەماشای پانێلەکە بکات. https : / / civaka-azad.org / mexmur 
+Line 126: Initialize search took 0.000 seconds total
+Line 126: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 126: Search took 0.091 seconds
+BEST TRANSLATION: پانێل|UNK|UNK|UNK 26th , May killed , 19 : 00|UNK|UNK|UNK دەستپیدەکات|UNK|UNK|UNK and applied دەتوانێت|UNK|UNK|UNK کەسێک|UNK|UNK|UNK in the Kurdish brothers who have voluntarily taken responsibility خوارەوە|UNK|UNK|UNK لینکەی|UNK|UNK|UNK , تەماشای|UNK|UNK|UNK پانێلەکە|UNK|UNK|UNK بکات.|UNK|UNK|UNK https|UNK|UNK|UNK : /|UNK|UNK|UNK /|UNK|UNK|UNK civaka-azad.org|UNK|UNK|UNK /|UNK|UNK|UNK mexmur|UNK|UNK|UNK [1111111111111111111111111111]  [total=-1623.712] core=(-1600.000,-36.000,28.000,-16.978,-18.973,-9.777,-54.854,-2.975,-1.609,-3.675,-2.180,-1.609,-5.543,-26.000,-222.419)  
+Line 126: Decision rule took 0.000 seconds total
+Line 126: Additional reporting took 0.000 seconds total
+Line 126: Translation took 0.092 seconds total
+Translating: 
+Line 127: Initialize search took 0.000 seconds total
+Line 127: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 127: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 127: Decision rule took 0.000 seconds total
+Line 127: Additional reporting took 0.000 seconds total
+Line 127: Translation took 0.000 seconds total
+Translating: ئەو ڕووداوە ، ڕۆژی یەکشەممە 25ی ڕەشەمە ڕوویداوە و ئەو هاووڵاتییە بەهۆی قورسیی برینەکانیەوە لە نەخۆشخانە گیانی لەدەست داوە . 
+Line 128: Initialize search took 0.000 seconds total
+Line 128: Collecting options took 0.001 seconds at moses/Manager.cpp Line 141
+Line 128: Search took 0.130 seconds
+BEST TRANSLATION: the ڕووداوە|UNK|UNK|UNK on Sunday , March 16th magnitude earthquake occurred at and in Sarpol Zahab due to the severity of the Kurdish citizen was lost their lives in نەخۆشخانە|UNK|UNK|UNK . [11111111111111111111]  [total=-210.409] core=(-200.000,-30.000,16.000,-15.107,-34.912,-13.774,-78.757,-3.778,-4.066,-4.676,-4.191,-4.799,-4.294,-36.000,-101.790)  
+Line 128: Decision rule took 0.000 seconds total
+Line 128: Additional reporting took 0.000 seconds total
+Line 128: Translation took 0.131 seconds total
+Translating: 
+Line 129: Initialize search took 0.000 seconds total
+Line 129: Collecting options took 0.000 seconds at moses/Manager.cpp Line 141
+Line 129: Search took 0.000 seconds
+BEST TRANSLATION: []  [total=0.000] core=(0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000)  
+Line 129: Decision rule took 0.000 seconds total
+Line 129: Additional reporting took 0.000 seconds total
+Line 129: Translation took 0.000 seconds total
+Name:moses	VmPeak:196812 kB	VmRSS:41800 kB	RSSMax:53164 kB	user:5.510	sys:0.040	CPU:5.550	real:5.543
